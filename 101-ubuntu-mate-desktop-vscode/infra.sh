@@ -21,9 +21,9 @@ logger -t devvm "Installing Mate Desktop ..."
 
 sudo dpkg --configure -a
 
-sudo apt-add-repository -y ppa:ubuntu-mate-dev/ppa
+sudo apt-add-repository -y -r ppa:ubuntu-mate-dev/ppa
 
-sudo apt-add-repository -y ppa:ubuntu-mate-dev/trusty-mate
+sudo apt-add-repository -y -r ppa:ubuntu-mate-dev/trusty-mate
 
 sudo apt-get -y update
 
